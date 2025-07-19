@@ -13,19 +13,19 @@
 5. 서바이벌 모드인 경우 시스템을 통해 부활 시간이 조정됩니다.
 6. 침대를 완전히 제거하기 위해서는 적팀의 상태에 서바이벌 모드로 침대를 파괴한 후 크리에이티브 모드에서 액자를 부술 수 있습니다.
 
-지원하는 명령어를 확인할 수 있습니다.
-/function war:config
+지원하는 명령어를 확인할 수 있습니다.  
+`/function war:config`
 
-팀, 침대, 탈락 여부 등 데이터팩 관련 진행요소들을 준비 상태로 설정합니다.
-/function war:config/reset
+팀, 침대, 탈락 여부 등 데이터팩 관련 진행요소들을 준비 상태로 설정합니다.  
+`/function war:config/reset`
 
-팀에 참가합니다.
-/team join <color> <targets>
+팀에 참가합니다.  
+`/team join <color> <targets>`  
 
-해당 플레이어 상태를 첫 접속한 서버 상태로 변경합니다.
-/advancement revoke <targets> only war:tags/init
+해당 플레이어 상태를 첫 접속한 서버 상태로 변경합니다.  
+`/advancement revoke <targets> only war:tags/init`
 
-아래 공식을 기준으로 부활 시간을 조정합니다.
-* 킬 수(playerKill) * 단위 초(multiRespawn) + 기본 초(addSec)
-/scoreboard players set multiRespawn config 2
-/scoreboard players set addRespawn config 0
+아래 공식을 기준으로 부활 시간을 조정합니다.  
+* 킬 수(playerKill) * 단위 초(multiRespawn) + 기본 초(addSec)  
+`/scoreboard players set multiRespawn config 2`  
+`/scoreboard players set addRespawn config 0`  
